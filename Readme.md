@@ -1,3 +1,9 @@
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/ZZMHA/shadowsocks_install/master/shadowsocks-all.sh
+chmod +x shadowsocks-all.sh
+./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+
+
+
 ![Shadowsocks](https://github.com/teddysun/shadowsocks_install/raw/master/shadowsocks.png)
 # Auto install Shadowsocks Server
 
