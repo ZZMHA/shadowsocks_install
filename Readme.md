@@ -3,11 +3,6 @@ chmod +x shadowsocks-all.sh
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 
 
-
-![Shadowsocks](https://github.com/teddysun/shadowsocks_install/raw/master/shadowsocks.png)
-# Auto install Shadowsocks Server
-
-
 卸载   ./shadowsocks-all.sh uninstall
 启动脚本后面的参数含义，从左至右依次为：启动，停止，重启，查看状态。
 
